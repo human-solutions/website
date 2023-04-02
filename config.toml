@@ -1,0 +1,60 @@
+title = "Human Solutions"
+
+# The URL the site will be built for
+base_url = "https://human.solutions"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+# The taxonomies to be rendered for that site and their configuration
+# Example:
+#     taxonomies = [
+#       {name = "tags", rss = true}, # each tag will have its own RSS feed
+#       {name = "categories", paginate_by = 5},  # 5 items per page for a term
+#       {name = "authors"}, # Basic definition: no RSS or pagination
+#     ]
+#
+taxonomies = [{ name = "tags", rss = true }]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+home_subtitle = "Some profound and catchy statement"
+
+footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+hermit_menu = [
+    { link = "/posts", name = "Posts" },
+    { link = "/about", name = "About" },
+]
+
+hermit_social = [
+    { name = "twitter", link = "https://twitter.com" },
+    { name = "github", link = "https://github.com" },
+    { name = "email", link = "mailto:author@domain.com" },
+]
+
+[extra.highlightjs]
+enable = true
+clipboard = true
+theme = "vs2015"
+
+[extra.disqus]
+enable = false
+# Take this from your Disqus account
+shortname = "my-supa-dupa-blog"
+
+[extra.author]
+name = "The Author"
+email = "author@domain.com"
+
+[extra.google_analytics]
+enable = false
+id = "UA-4XXXXXXX-X"
