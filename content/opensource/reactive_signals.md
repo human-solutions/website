@@ -1,6 +1,6 @@
 +++
-title="cargo-leptos"
-description="The Leptos official build tool with parallel building of the server binary and the WASM frontend."
+title="reactive-signals"
+description="Highly performant reactive signals in scopes organised in a tree structure."
 date = 2018-09-29T11:36:33+08:00
 draft = false
 [taxonomies]

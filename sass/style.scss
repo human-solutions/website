@@ -362,6 +362,28 @@ p.img-404 {
   }
 }
 
+h1.title {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#opensourcelist {
+  font-size: 1.5rem;
+
+  nav p.description {
+    margin-top: 0.2rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+
+  a {
+    border-bottom: 2px solid $theme;
+  }
+
+}
+
 #home-center {
   display: flex;
   flex-grow: 1;
