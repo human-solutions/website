@@ -104,6 +104,12 @@ a {
   }
 }
 
+article {
+  a {
+    border-bottom: 2px solid $theme;
+  }
+}
+
 hr {
   opacity: 0.2;
   border-width: 0 0 5px 0;
@@ -277,9 +283,13 @@ table {
 #site-footer {
   text-align: center;
   font-size: 0.9em;
+  color: $demphasized-text;
   margin-bottom: 96px;
   margin-top: 64px;
 
+  a {
+    color: $demphasized-text;
+  }
   p {
     margin: 0;
   }

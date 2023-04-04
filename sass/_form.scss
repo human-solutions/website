@@ -1,7 +1,9 @@
 form {
-    min-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 26rem;
     input {
-        min-width: 26rem;
+        width: 26rem;
         min-height: 1.6rem;
         padding: 0.4rem;
         display: block;
@@ -10,13 +12,13 @@ form {
         border-radius: 4px;
     }
     label {
-        min-width: 26rem;
+        width: 26rem;
         display: block;
         margin-top: 1rem;
     }
     textarea {
         min-height: 6rem;
-        min-width: 26rem;
+        width: 26rem;
         padding: 0.4rem;
         display: block;
         background-color: $dark-grey;
