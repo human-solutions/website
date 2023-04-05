@@ -43,7 +43,7 @@ hermit_social = [
 ]
 
 [extra.highlightjs]
-enable = true
+enable = false
 clipboard = false
 theme = "vs2015"
 

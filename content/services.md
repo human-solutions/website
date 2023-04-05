@@ -3,7 +3,7 @@ title="Services"
 template= "description.html"
 +++
 
-Human Solutions provides services mainly for financially supporting the Open Source activities.
+Human Solutions provides services mainly for financially supporting the open-source activities.
 The services are provided in English, French and Swedish.
 
 Contact: [discord](https://discord.gg/CV5ZDT9U5y) or

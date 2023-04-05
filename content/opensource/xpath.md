@@ -1,17 +1,18 @@
 +++
 title="x-path"
-description="An if-it-compiles-it-works solution for safe Rust paths with abs/rel and file/dir variants for API safety and cross platform support."
-date = 2018-09-29T11:36:33+08:00
+description="[wip] An if-it-compiles-it-works solution for safe Rust paths with abs/rel and file/dir variants for API safety and cross platform support."
+date = 2018-03-01
 draft = false
-[taxonomies]
-tags=["test", "original_post"]
+template = "opensource_page.html"
 [extra]
 toc=true
 +++
 
-## WIP: X-Path
+[GitHub](https://github.com/human-solutions/x-path), [Crates](https://crates.io/crates/x-path)
 
-X-Path is a if-it-compiles-it-works solution for safe Rust paths with abs/rel and file/dir
+Status: actively worked on. Beta version coming.
+
+x-path is a if-it-compiles-it-works solution for safe Rust paths with abs/rel and file/dir
 variants for API safety and cross platform support
 
 # Use cases
