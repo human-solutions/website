@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta itemprop="name" content="Human Solutions" />
+  <meta itemprop="description" content="" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://human.solutions/apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="https://human.solutions/favicon-32x32.png" />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="https://human.solutions/favicon-16x16.png"
+  />
+  <link
+    rel="shortcut icon"
+    href="https://human.solutions/favicon.ico"
+  />
+  <link rel="stylesheet" href="https://human.solutions/style.css"/>
+  
+  <title>reactive-signals</title>
+  
+
+  
+
+  <body id="page">
+
+	
+<header id="site-header" class="animated slideInUp faster">
+  <div class="hdr-wrapper section-inner">
+    <div class="hdr-left">
+      <div class="site-branding">
+        <a href="https:&#x2F;&#x2F;human.solutions">Human Solutions</a>
+      </div>
+      <nav class="site-nav hide-in-mobile">
+        
+        <a href="https://human.solutions/polyglot"
+          >The Polyglot dictionary</a
+        >
+        
+        <a href="https://human.solutions/opensource"
+          >Open Source</a
+        >
+        
+        <a href="https://human.solutions/services"
+          >Services</a
+        >
+        
+        <a href="https://human.solutions/blog"
+          >Blog</a
+        >
+        
+      </nav>
+    </div>
+    <div class="hdr-right hdr-icons">
+      <span class="hdr-social hide-in-mobile">
+         
+<a
+  href="https:&#x2F;&#x2F;opencollective.com&#x2F;human-solutions"
+  target="_blank"
+  rel="noopener me"
+  title="Open Collective"
+>
+  
+  <svg
+    width="24"
+    height="24"
+    viewBox="3 3 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.6818 15.7529L18.8116 17.8827C20.1752 16.3052 21 14.249 21 12.0001C21 9.78747 20.2016 7.76133 18.8771 6.19409L16.7444 8.32671C17.5315 9.34177 18 10.6162 18 12.0001C18 13.4203 17.5066 14.7253 16.6818 15.7529Z"
+      fill="currentColor"
+      fill-opacity="0.5"
+    />
+    <path
+      d="M15.6734 16.7445C14.6583 17.5315 13.3839 18 12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C13.4202 6 14.7252 6.49344 15.7528 7.31823L17.8826 5.18843C16.3051 3.82482 14.2489 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C14.2126 21 16.2387 20.2016 17.806 18.8771L15.6734 16.7445Z"
+      fill="currentColor"
+    />
+  </svg>
+  
+</a>
+
+<a
+  href="https:&#x2F;&#x2F;github.com&#x2F;human-solutions"
+  target="_blank"
+  rel="noopener me"
+  title="GitHub"
+>
+  
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="feather"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path
+      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+    ></path>
+  </svg>
+  
+</a>
+
+<a
+  href="https:&#x2F;&#x2F;discord.gg&#x2F;CV5ZDT9U5y"
+  target="_blank"
+  rel="noopener me"
+  title="Discord"
+>
+  
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="feather"
+    width="24"
+    height="24"
+    viewBox="-1 -1 18 18"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="0.9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path
+      d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"
+    />
+  </svg>
+  
+</a>
+ 
+      </span>
+      <button id="menu-btn" class="hdr-btn" title="Menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-menu"
+        >
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+<div id="mobile-menu" class="animated fast">
+  <ul>
+    
+    <li>
+      <a href="https://human.solutions/polyglot">The Polyglot dictionary</a>
+    </li>
+    
+    <li>
+      <a href="https://human.solutions/opensource">Open Source</a>
+    </li>
+    
+    <li>
+      <a href="https://human.solutions/services">Services</a>
+    </li>
+    
+    <li>
+      <a href="https://human.solutions/blog">Blog</a>
+    </li>
+    
+  </ul>
+</div>
+
+	
+	 
+		
+<main class="site-main section-inner animated fadeIn faster">
+  <article class="thin">
+    <h1 class="title">reactive-signals</h1>
+
+    <div class="content"><p><a href="https://github.com/human-solutions/reactive-signals">GitHub</a> <a href="https://crates.io/crates/reactive-signals">crates.io</a> <a href="https://docs.rs/reactive-signals">docs.rs</a></p>
+<p>reactive-signals is a dx-first scope-based fine-grained reactive system. It is based on the excellent ideas in leptos_reactive
+but is written from scratch to provide the simplest API and mental model possible for developers. See <a href="https://docs.rs/reactive-signals">docs.rs</a>
+for much more information.</p>
+<p>Status: <a href="https://opencollective.com/human-solutions/projects/reactive-signals">fund raising</a> for achieving a production-level featureset and quality:</p>
+<ul>
+<li><a href="https://docs.rs/reactive-signals/0.1.0-alpha.3/reactive_signals/struct.Scope.html#typed-attached-data">attached data</a> for Scopes</li>
+<li><a href="https://docs.rs/reactive-signals/0.1.0-alpha.3/reactive_signals/macro.signal.html#example-of-async-functional-reactive-signals">async signals</a></li>
+<li>full test-coverage</li>
+<li>push-pull updates</li>
+<li>tokio tracing instrumentation</li>
+</ul>
+</div>
+  </article>
+  
+  <aside id="toc">
+    <div id="TableOfContents">
+      <div class="toc-title">Table of content</div>
+      <ul>
+        
+      </ul>
+    </div>
+  </aside>
+  
+
+  <div class="post-nav thin">
+     
+  </div>
+</main>
+
+	  </div>
+	  
+	   
+
+<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+  <p>
+    &copy; 2025
+    <a href="https:&#x2F;&#x2F;human.solutions">Human Solutions</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>
+  </p>
+  <p>
+    Made with
+    <a href="https://www.getzola.org" target="_blank" rel="noopener">Zola</a>
+    
+  </p>
+</footer>
+
+ 
+	</div>
+	
+	<script src="https://human.solutions/js/main.js"></script>
+
+	<!-- Math rendering -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, { delimiters: [ {left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}, {left: '\\[', right: '\\]', display: true}, {left: '\\(', right: '\\)', display: false}]});"></script>
+
+    
+
+    
+    
+  </body>
+</html>
